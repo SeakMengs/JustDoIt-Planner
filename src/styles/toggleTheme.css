@@ -43,7 +43,7 @@
 
 @media (max-width: 768px) {
     .theme-switch {
-        width: 30px;
+        width: 35px;
         height: 15px;
     }
     .theme-switch .switch {
