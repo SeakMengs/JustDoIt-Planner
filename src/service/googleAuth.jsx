@@ -1,21 +1,11 @@
-// Firebase documentations
-// https://firebase.google.com/docs/web/setup?authuser=3
-// https://firebase.google.com/docs/auth/web/google-signin?authuser=3
-
-import { GoogleAuthProvider, getAuth, signInWithPopup, getAdditionalUserInfo } from "firebase/auth";
 import { initializeApp } from "firebase/app";
+import { GoogleAuthProvider, getAuth, signInWithPopup, getAdditionalUserInfo } from "firebase/auth";
 
-// TODO: Add SDKs for Firebase products that you want to use
-// https://firebase.google.com/docs/web/setup#available-libraries
-
-// web app's Firebase configuration
-// For Firebase JS SDK v7.20.0 and later, measurementId is optional
-const firebaseConfig = {
-
-};
+// Your firebase config
+import { firebaseConfig } from "./firebase.jsx"
 
 // Initialize Firebase
-const app = initializeApp(firebaseConfig);
+initializeApp(firebaseConfig)
 
 // handle google login
 const googleAuth = () => {
@@ -39,20 +29,20 @@ const googleAuth = () => {
             const errorCode = error.code;
             console.log("error code: ", errorCode);
             const errorMessage = error.message;
-            console.log("error message: ", errorMessage);
+            // console.log("error message: ", errorMessage);
             // The email of the user's account used.
             const email = error.customData.email;
-            console.log("email: ", email);
+            // console.log("email: ", email);
             // The AuthCredential type that was used.
             const credential = GoogleAuthProvider.credentialFromError(error);
-            console.log("credential: ", credential);
+            // console.log("credential: ", credential);
         });
 }
 
 export const GoogleLogin = () => {
     return (
-        <div>
-            <button onClick={googleAuth}>Login with Google</button>
+        <div className='flex items-center bg-white-theme-1 shadow-sm shadow-black hover:bg-dark-theme-2 hover:border-dark-theme-2  dark:hover:border-white-theme-1 dark:shadow-white dark:shadow-sm dark:bg-dark-theme-2 px-4 py-1 border rounded-2xl dark:hover:bg-white-theme-1  hover:text-white  dark:hover:text-dark-theme-3  dark:text-white'>
+            <span className='font-bold' onClick={googleAuth}>Login</span>
         </div>
     )
 }

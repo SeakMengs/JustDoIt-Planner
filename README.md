@@ -6,5 +6,5 @@
 # Dependencies
 
 npm create vite@latest <br>
-npm install -D tailwindcss postcss autoprefixer
-npm i firebase
+npm install -D tailwindcss postcss autoprefixer <br>
+npm i firebase <br>
