@@ -1,9 +1,14 @@
-.art-img {
-    animation: art-move 3s linear infinite;
-    -webkit-animation: art-move 3s linear infinite;
+.on-start-fade-right {
+    animation: onStartFadeRight 1s ease-in-out;
+    -webkit-animation: onStartFadeRight 1s ease-in-out;
 }
 
-@keyframes art-move {
+.on-start-fade-left {
+    animation: onStartFadeLeft 1s ease-in-out;
+    -webkit-animation: onStartFadeLeft 1s ease-in-out;
+}
+
+@keyframes art-move-y {
     /* make translate y animation */
     0% {
         transform: translateY(0);
@@ -15,3 +20,26 @@
         transform: translateY(0);
     }
 }
+
+@keyframes  onStartFadeLeft{
+    0% {
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes onStartFadeRight{
+    0% {
+        opacity: 0;
+        transform: translateX(100px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+    
