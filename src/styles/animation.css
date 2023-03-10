@@ -1,0 +1,17 @@
+.art-img {
+    animation: art-move 3s linear infinite;
+    -webkit-animation: art-move 3s linear infinite;
+}
+
+@keyframes art-move {
+    /* make translate y animation */
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
