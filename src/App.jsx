@@ -1,4 +1,4 @@
-import './styles/App.css'
+import '/src/styles/App.css'
 import { HomePage } from './pages/homepage/homepage'
 
 function App() {

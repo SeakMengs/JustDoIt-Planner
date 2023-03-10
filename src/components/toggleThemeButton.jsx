@@ -8,6 +8,7 @@ const toggleTheme = () => {
     darkClass.classList.toggle('dark')
 }
 
+// taken from https://codepen.io/sashatran/pen/rPaLgG
 export const ToggleThemeButton = () => {
     return (
         <div onClick={toggleTheme} className="theme-switch">

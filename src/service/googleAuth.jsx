@@ -41,7 +41,9 @@ const googleAuth = () => {
 
 export const GoogleLogin = () => {
     return (
-        <div onClick={googleAuth} className='flex items-center bg-white-theme-1 shadow-sm shadow-black hover:bg-dark-theme-2 hover:border-dark-theme-2  dark:hover:border-white-theme-1 dark:shadow-white dark:shadow-sm dark:bg-dark-theme-2 px-4 py-1 border rounded-2xl dark:hover:bg-white-theme-1  hover:text-white  dark:hover:text-dark-theme-3  dark:text-white'>
+        <div onClick={googleAuth} className='flex items-center bg-white-theme-1 shadow-sm shadow-black hover:bg-dark-theme-2 hover:border-dark-theme-2 
+         dark:hover:border-white-theme-1 dark:shadow-white dark:shadow-sm dark:bg-dark-theme-2 px-4 py-1 border rounded-2xl
+          dark:hover:bg-white-theme-1  hover:text-white  dark:hover:text-dark-theme-3  dark:text-white max-sm:px-2 '>
             <span className='font-bold'>Login</span>
         </div>
     )

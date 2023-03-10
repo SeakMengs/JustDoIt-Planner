@@ -17,7 +17,11 @@ module.exports = {
         'dark-theme-1': '#0a0a0a',
         'dark-theme-2': '#151515',
         'dark-theme-3': '#272727',
-      }
+      },
+      screens: {
+        'max-xs': {'max': '320px'},
+        'max-sm': {'max': '640px'},
+      },
     },
   },
   plugins: [],
