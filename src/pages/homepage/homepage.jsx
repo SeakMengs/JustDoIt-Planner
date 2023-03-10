@@ -11,7 +11,7 @@ export const HomePage = () => {
                         <span className='text-9xl max-sm:text-4xl'>Just Do It!</span>
                         <span className="text-base dark:text-white-theme-1 break-words max-sm:text-xs">Welcome to JustDoIt Planner, the app that helps you organize your tasks and projects with ease. Whether you work alone or with a team, JustDoIt Planner lets you create plans, assign tasks, set deadlines. </span>
                     </div>
-                    <img className='w-96 h-auto art-img max-sm:w-40' src="/src/assets/planner art no bg.png" alt="art" />
+                    <img className='w-96 h-auto art-img max-sm:w-40' src="https://res.cloudinary.com/yato-confession/image/upload/v1678453843/Yato-Confession/planner_art_no_bg_dkqx56.png" alt="art" />
                 </div>
             </div>
         </div>
