@@ -11,10 +11,10 @@ export const HomePageNavbar = () => {
                 <span className='font-black dark:text-white max-sm:hidden'>JustDoIt</span>
             </div>
             <div className="flex items-center gap-16 max-sm:gap-4">
-                <a className='font-bold' href=''>Feature</a>
-                <a className='font-bold' href=''>Solution</a>
-                <a className='font-bold' href=''>About us</a>
-                <a className='font-bold' href=''>Blog</a>
+                <a className='font-bold' href='#feature'>Feature</a>
+                <a className='font-bold' href='#solution'>Solution</a>
+                <a className='font-bold' href='#about'>About us</a>
+                <a className='font-bold' href='#blog'>Blog</a>
             </div>
             <div className="flex items-center">
                 <ToggleThemeButton />

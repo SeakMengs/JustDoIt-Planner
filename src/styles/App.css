@@ -1,7 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@1,300&display=swap');
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: 'Barlow', sans-serif;
+  scroll-behavior: smooth;
 }
 
 /* .first-section {
