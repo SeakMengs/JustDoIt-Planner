@@ -13,7 +13,7 @@ export const HomePageNavbar = () => {
             <div className="flex items-center gap-16 max-sm:gap-4">
                 <a className='font-bold' href=''>Feature</a>
                 <a className='font-bold' href=''>Solution</a>
-                <a className='font-bold' href=''>About Us</a>
+                <a className='font-bold' href=''>About us</a>
                 <a className='font-bold' href=''>Blog</a>
             </div>
             <div className="flex items-center">
