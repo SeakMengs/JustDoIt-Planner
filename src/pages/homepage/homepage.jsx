@@ -29,7 +29,7 @@ export const HomePage = () => {
 
     return (
         <>
-            <div className="bg-white-theme-1 dark:bg-dark-theme-1 max-w-full">
+            <div className="bg-white-theme-1 dark:bg-dark-theme-1 max-w-full max-sm:text-xs">
                 <div className="max-w-7xl my-0 mx-auto dark:bg-dark-theme-1">
                     <HomePageNavbar />
                 </div>
